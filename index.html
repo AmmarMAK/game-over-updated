@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Over Updated</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my css file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark">
+
+    <section id="section"></section>
+    <div class="container" id="navBar">
+      <div
+        class="navigation-bar mt-5 d-flex border border-5 rounded-5 border-black p-3"
+      >
+        <div class="w-25">
+          <h5 class="text-white fs-6">
+            <img src="images/logo-sm.png" alt="" />GAME REVIEWS
+          </h5>
+        </div>
+        <ul class="nav w-100 justify-content-end align-items-center">
+          <li class="nav-item fs-5">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              id="mmorpgCategory"
+              >MMORPG</a
+            >
+          </li>
+          <li class="nav-item fs-5">
+            <a class="nav-link" href="#" id="shooterCategory">SHOOTER</a>
+          </li>
+          <li class="nav-item fs-5">
+            <a class="nav-link" href="#" id="sailingCategory">SAILING</a>
+          </li>
+          <li class="nav-item fs-5">
+            <a class="nav-link" href="#" id="permadeathCategory">PERMADEATH</a>
+          </li>
+          <li class="nav-item fs-5">
+            <a class="nav-link" href="#" id="superheroCategory">SUPERHERO</a>
+          </li>
+          <li class="nav-item fs-5">
+            <a class="nav-link" href="#" id="pixelCategory">PIXEL</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container mt-3 gameData">
+      <div class="row">
+        <div class="col-md-3" id="gameCard">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-white d-none gameDetails">
+      <i class="fa-solid fa-x text-white closeWindow" id="closeWindow"></i>
+      <h1>Game Details</h1>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="w-25">
+          <img src="images/img placeholder.svg" class="w-100" alt="" />
+        </div>
+        <div class="p-3">
+          <h3>Title:Game Name</h3>
+          <p>Category</p>
+          <p>Platform</p>
+          <p>Status</p>
+          <p>long Description</p>
+          <button>Play</button>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/index.js" type="module"></script>
+  </body>
+</html>

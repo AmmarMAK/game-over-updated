@@ -1,0 +1,32 @@
+section {
+  height: 421px;
+  background-image: url(../images/main-background.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#gameCard{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+.navigation-bar {
+  border: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card{
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.card:hover{
+scale: 1.1;
+cursor: pointer;
+}
+
+.closeWindow:hover{
+  cursor: pointer;
+}
+
+
